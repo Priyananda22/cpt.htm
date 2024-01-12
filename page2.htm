@@ -1,61 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<TITLE> </TITLE>
-</HEAD>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-pink.css">    
+    <title>Page 2 - Links</title>
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+    <style>
+    body {
+      background: url("https://www.w3schools.com/howto/img_link_tree_template2_bg.jpg"); /* The image used for background */
+    }
 
-<BODY>
+    .container {
+      width: 100%;
+      height: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
 
-<P><center><h1>My Work</h1></center></P>
 
-<P><left><h3>Work Piece 1: Canva Project</h3></left></P>
+    .links-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
 
-<img src="canva1.png" alt="Canva Project">
+    .links-container a {
+      width: 80%;
+    }
 
-<a href="https://www.canva.com/design/DAFwHzE9F54/9bGlVlcbVkfimt4rLdI_Kw/edit?utm_content=DAFwHzE9F54&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Link To Canva</a>
+    .w3-theme-l1:hover {
+      background-color: #f279a1 !important;
+    }
 
-<P><left>This is one of my best Canva works as it was one of the first times in the class that I’ve used a template. Canva has become a quick and easy tool for me to present ideas and presentations as they have a variety of templates to choose from.</left></P>
+    .margin-top-2 {
+      margin-top: 32px;
+    }
 
-<P><left><h3>Work Piece 2: Excel Project</h3></left></P>
+    .bottom {
+      width: 100%;
+      text-align: center;
+      width: auto;
+      font-weight: bolder;
+    }
 
-<img src="Exceltest.png" alt="Excel Test">
+    .bottom span {
+      color: #ed4d82;
+    }
 
-<a href="https://docs.google.com/spreadsheets/d/1LbMrakzyBDllJ1laHAl8WzVYblCF3ubO5cFzcezqi4c/edit#gid=0">Link To Excel</a>
+    .bottom svg {
+      stroke: #ed4d82;
+      fill: #ed4d82;
+    }
 
-<P><left>This Excel Spreedsheet shows my abilities to navigate through excel and display data neatly and efficiently. I can use formuals, create graphs, tables, etc to easily organize data.</left></P>
+    @media (min-width: 768px) {
+      .link {
+        width: 100%;
+      }
+    }
+    @media (min-width: 576px) {
+      .container {
+        max-width: 540px;
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <!-- Content container -->
+    <div class="container">
 
-<P><left><h3>Work Piece 3: Wix Website</h3></left></P>
+      <!-- Image and name container. Change to your pictue here. -->
+      <div style="text-align: center">
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCompany&psig=AOvVaw0mZYjyY52M53NVJusdpdiG&ust=1705183465676000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJiNycjt2IMDFQAAAAAdAAAAABAD" class="w3-margin" alt="image" width="150px" height="150px" style="border-radius: 50%;">
+        <p><span class="name w3-padding w3-pink w3-round" style="font-weight: bolder;">Priyananda</span></p>
+        <p style="font-weight: bolder;">My work!</p>
+      </div>
 
-<a href=https://354229884.wixsite.com/googley-choice>Link To Website</a>
+      <!-- Links section 1. Replace the # inside of the "" with your links. -->
+      <h4 class="margin-top-2" style="text-align: center;">LINKS</h4>
+      <div class="links-container">
+        <a href="https://www.canva.com/design/DAFwHzE9F54/9bGlVlcbVkfimt4rLdI_Kw/edit?utm_content=DAFwHzE9F54&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Link 1 - Canva</a>
+        <a href="https://docs.google.com/spreadsheets/d/1LbMrakzyBDllJ1laHAl8WzVYblCF3ubO5cFzcezqi4c/edit?usp=sharing" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Link 2 - Excel Test</a>
+        <a href="https://354229884.wixsite.com/googley-choice" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Link 3 - Website</a>
+        <a href="https://docs.google.com/document/d/1-jWUrdtqWwXAsOfjQmTWBEKM22xQXwFh0RmmQj-QehU/edit?usp=sharing" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Link 4 - Letter</a>
+        <a href="https://www.canva.com/design/DAFwzzFehe8/HpFCqk1tm7nyb4akx3nXGw/edit?utm_content=DAFwzzFehe8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Link 5 - Policy</a>
+      </div>
 
-<P><left>This piece of work demonstrates my abilites to use resources and templates to create a website. It displays my graphic design skills and use of things like "AIDA".</left></P>
+      <h4 class="margin-top-2" style="text-align: center;">Reflection:</h4>
 
-<P><left><h3>Work Piece 4: Business Letter</h3></left></P>
+      <h4 class="margin-top-2" style="text-align: center;">The first piece is one of my best Canva works as it was one of the first times in the class that I’ve used a template. Canva has become a quick and easy tool for me to present ideas and presentations as they have a variety of templates to choose from.  The Excel spreadsheet was one of my best pieces of work for excel as it shows all the elements of excel i am capable of using. I can create charts, graphs, etc. And use formulas in order to make a table easier to organize. I can find sums, greatest, least, and change colors of cells according to the data. The Wix website shows my capabilities of being able to use resources and templates in order to make a functioning website, it also displays my graphic designing skills i have acquired along the way. The business letter piece shows that I can make an effective and professional business letter with a letterhead. Also the formatting and construction of the letter itself. This is important in the work world as we need to professionally communicate ideas thoroughly and effectively. Writing in this form makes room for only a few sentences to communicate big ideas. The policy Canva shows my abilities to understand and summarize main points and important parts of a large company policy. Also shows I can display information in a neat and organized manner.</h4>
 
-<a href="https://docs.google.com/document/d/1-jWUrdtqWwXAsOfjQmTWBEKM22xQXwFh0RmmQj-QehU/edit?usp=sharing">Link To Letter</a>
-
-<P><left>This piece of work demonstartes that I can express and communicate my ideas in a professional mammer, with accurate and effient formatting.</left></P>
-
-<P><left><h3>Work Piece 5: Policy</h3></left></P>
-
-<a href="https://www.canva.com/design/DAFwzzFehe8/HpFCqk1tm7nyb4akx3nXGw/edit?utm_content=DAFwzzFehe8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Link To Policy</a>
-
-<P><left>This piece of work demonstartes that I can display important pieces of data and present it in a easy, and quick to understand way.</left></P>
-
-<P><left>All these artifacts showcase a variety of skills that I have learned during my time in the BTT101 course at Campion.</left></P>
-  
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<hr align="centre">
-
-<a href="index.html">Back To First Page</a>
-
-</BODY>
-</HTML>
+       <!-- Bottom section 3 -->
+      <div class="bottom margin-top-2 w3-padding w3-round">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+        <span style="vertical-align: 7px;"> 2024 - Priyananda</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+      </div>
+      
+      <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+    <script>
+      feather.replace()
+    </script>
+  </body>  
+</html>
