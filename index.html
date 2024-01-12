@@ -1,36 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<TITLE> </TITLE>
-</HEAD>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-pink.css">    
+    <title>Links website</title>
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+    <style>
+    body {
+      background: url("https://www.w3schools.com/howto/img_link_tree_template2_bg.jpg"); /* The image used for background */
+    }
 
-<BODY>
+    .container {
+      width: 100%;
+      height: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
 
-<font color=navy> 	<!This sets the font colour>
 
-<a href="page2.htm">Page 2</a>
- 
-<P><center><h1>The Googley Choice</h1></center></P>
+    .links-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
 
-<P><center><h2>E-Portfolio: Priyananda</h2></center></P>
+    .links-container a {
+      width: 80%;
+    }
 
-</font> 	<!This turns it off (back to normal) >
+    .w3-theme-l1:hover {
+      background-color: #f279a1 !important;
+    }
 
-<img src="https://www.dpcdsb.org/board%20external%20content/School%20Pictures/CAMPI.jpg?RenditionID=19" align="right"height=350 width=450>
+    .margin-top-2 {
+      margin-top: 32px;
+    }
 
-<br><br> 	<!These are 2 line breaks>
+    .bottom {
+      width: 100%;
+      text-align: center;
+      width: auto;
+      font-weight: bolder;
+    }
 
-<P><left1>And this is my website!</left></P>
+    .bottom span {
+      color: #ed4d82;
+    }
 
-<P><left>I am a  grade 9 student at St. Edmund Campion. I have taken a course called “Info and Com Tech in Business” where I have learned things like how to code websites using HTML, how to create a website through templates, write business letters, etc. We learned how to use software applications like Canva, Microsoft Excel, Spreadsheet, Google Slides, and more! This website was created using the HTML coding language we learned in class to show off some of my best work. Recently, we have been focusing more on websites, web page designs, and things like that. My first website was made on wix. It was made with a template, and had different web pages attached, like contact page, about page, store page, etc. That website was based on selling concert tickets, the artists i chose to represent are people like Taylor Swift, ACDC, Travis Scott, etc.   </left></P>
+    .bottom svg {
+      stroke: #ed4d82;
+      fill: #ed4d82;
+    }
 
-<P><left><h3>Contact</h3></left></P>
+    @media (min-width: 768px) {
+      .link {
+        width: 100%;
+      }
+    }
+    @media (min-width: 576px) {
+      .container {
+        max-width: 540px;
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <!-- Content container -->
+    <div class="container">
 
-<P><left><Phone: 645-382-2836</left></P>
-<P><left>Email: 354229444@dpcdsb.org</left></P>
-
-</BODY>
-</HTML>
+      <!-- Image and name container. Change to your pictue here. -->
+      <div style="text-align: center">
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCompany&psig=AOvVaw0mZYjyY52M53NVJusdpdiG&ust=1705183465676000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJiNycjt2IMDFQAAAAAdAAAAABAD" class="w3-margin" alt="image" width="150px" height="150px" style="border-radius: 50%;">
+        <p><span class="name w3-padding w3-pink w3-round" style="font-weight: bolder;">Priyananda's Website:</span></p>
+        <p style="font-weight: bolder;">About Me!</p>
+      </div>
+      
+  <p style="font-weight: bolder;">My name is Priyananda S., and I am a  grade 9 student at St. Edmund Campion. I have taken a course called “Info and Com Tech in Business” where I have learned things like how to code websites using HTML, how to create a website through templates, write business letters, etc. We learned how to use software applications like Canva, Microsoft Excel, Spreadsheet, Google Slides, and more! This website was created using the HTML coding language we learned in class to show off some of my best work. Recently, we have been focusing more on websites, web page designs, and things like that. My first website was made on wix. It was made with a template, and had different web pages attached, like contact page, about page, store page, etc. That website was based on selling concert tickets, the artists i chose to represent are people like Taylor Swift, ACDC, Travis Scott, etc. </p>
+      
+      <!-- Bottom section 3 -->
+      <div class="bottom margin-top-2 w3-padding w3-round">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+         <div class="links-container">
+        <a href="page2.htm" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Links Page</a>
+        <span style="vertical-align: 7px;"> 2024 - Priyananda</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+      </div>
+      <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+    <script>
+      feather.replace()
+    </script>
+  </body>  
+</html>
